@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fitness Centre</title>
+    <style>
+    body{
+      background-image: url("Gym.jpg");
+      background-size: cover;
+    }
+    .heading{
+    text-align: center;
+    font-style: Times New Roman;
+    color:wheat;
+    }
+    .logo{
+    position:relative;
+    bottom:107px;
+    right: 20px;
+    width: 120px;
+    height: 90px;
+  }
+  a{
+    color:wheat;
+    text-decoration: none;
+  }
+  a:hover{
+    background-color: white;
+    transition: 2s;
+  }
+  .details{
+    position: relative;
+    font-style: Times New Roman;
+    left: 85%;
+    bottom: 180px;
+    }
+  .bmi{
+    position:relative;
+    left:45%;
+    }
+    #c,#d,#e{
+      background-color: grey;
+      position: relative;
+      right: 90px;
+      padding-left: 115px;
+      border-radius: 4px;
+      width: 350px;
+      height: 40px;
+      box-sizing: border-box;
+      display: block;
+    }
+    #sub{
+      padding-left: 55px;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="a">
+      <h1 class="heading">GoFIT</h1>
+      <img class="logo" src="logo.jpg" />
+    </div>
+    <div class="b">
+      <p class="details">
+        <a href="Details.html">About</a>&nbsp &nbsp &nbsp &nbsp<a href="Details.html">Login</a>&nbsp &nbsp &nbsp &nbsp<a href="Details.html">Sign Up</a>
+        </p>
+    </div>
+    <form class="bmi" action="index.html" method="post">
+   <input id="c" type="text" name="Your Name" value="Enter Your Name"><br /><br />
+     <input id="d" type="text" name="Your Weight" value="Enter Your Weight"><br /><br />
+        <input id="e" type="text" name="Your Height" value="Enter Your Height"><br /><br />
+      </div>
+        <div id="sub">
+          <br />  <input type="submit" />
+
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>
